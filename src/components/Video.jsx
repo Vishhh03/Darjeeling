@@ -4,7 +4,7 @@ export default function Video() {
   const videoRef = useRef(null);
   const animationFrameRef = useRef();
 
-  // Segment Data
+//Segment Data
 //   const segments = {
 //     initial: { start: 0, end: 6 },
 //     initialLoop: { start: 2, end: 6 },
@@ -15,8 +15,12 @@ export default function Video() {
     const segments = {
         initial: { start: 0, end: 5.6 },
         initialLoop: { start: 4.4, end: 5.6 },
-        action: { start: 3, end: 5 },
-        actionLoop: { start: 4, end: 5 }
+        zoomIntoContainer: { start: 3, end: 5 },
+        zoomIntoContainerLoop: { start: 4, end: 5 },
+        moveRight: { start: 5.71, end: 7.11 },
+        moveRightLoop: { start: 7.11, end: 8.99 },
+        interiorZoom: { start: 1 , end: 1 },
+        interiorZoomLoop: { start: 1, end: 1 },
   };
 
 
