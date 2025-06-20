@@ -113,7 +113,7 @@ export default function Video() {
             </h1>
 
             {/* Subheading */}
-            <p className="mt-4 text-lg md:text-2xl text-white/95 font-light">
+            <p className="mt-4 text-lg md:text-2xl text-white/100 font-light">
                 A peaceful retreat surrounded by nature in the heart of Darjeeling. Luxury meets tranquility.
             </p>
 
