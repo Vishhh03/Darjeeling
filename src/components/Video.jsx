@@ -7,8 +7,8 @@ export default function Video() {
 
   // Segment Data
   const segments = {
-    initial: { start: 0, end: 5.6 },
-    initialLoop: { start: 4.4, end: 5.6 },
+    initial: { start: 0, end: 5.4 },
+    initialLoop: { start: 4.5, end: 5.4 },
     action: { start: 5.71, end: 7.11 },
     actionLoop: { start: 7.11, end: 8.99 },
     zoomIntoContainer: { start: 3, end: 5 },
@@ -105,7 +105,7 @@ export default function Video() {
     <div className="relative w-full h-screen overflow-hidden">
       <video
         ref={videoRef}
-        src="/assets/videos/SQ1.mp4"
+        src="/assets/videos/compressed.webm"
         className="absolute top-0 left-0 w-full h-full object-cover brightness-75 z-0"
         preload="auto"
         controls={false}
